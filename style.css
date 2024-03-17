@@ -1,0 +1,286 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Notable&display=swap');
+
+/*
+FONT FAMILY
+font-family: "Jomhuria", serif;
+font-family: "Notable", sans-serif;
+font-family: "Josefin Slab", serif;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+.slide-1, .slide-2, .slide-3, .slide-4, .slide-5{
+  font-family: "Jomhuria", serif;
+  font-size: 85px;
+  height: 540px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.slide-2, .slide-3, .slide-4, .slide-5{
+  font-family: "Jomhuria", serif;
+  font-size: 40px;
+  height: 270px;
+}
+
+/* BIG MAIN SLIDE */
+
+.slide-1{
+  background-image: linear-gradient(#EBCC5D, #853517);
+}
+.slide-1 .left-top-name{
+  position: absolute;
+  top: 2%;
+  left: 10%;
+}
+
+.slide-1 .right-bottom-name{
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+}
+
+.slide-1 .selection-description{
+  height: 100%;
+  width: 100%;
+  bottom: -100%;
+  position: absolute;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-text-stroke-color: none;
+  -webkit-text-stroke-width: 0;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 2s;
+}
+
+.selection-slogan{
+  font-family: "Jomhuria", serif;
+  margin-bottom: 2rem;
+}
+
+.selection-info{
+  font-family: "Josefin Slab", serif;
+  width: 1060px;
+  font-size: 40px;
+}
+
+.slide-1:hover .selection-description{
+  bottom: 0;
+}
+
+/* MINI SLIDES */
+
+.mini-slides{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+}
+
+.slide-2{
+  background-image: linear-gradient(#71412E, #101F56);
+}
+
+.slide-2 .left-top-name{
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.slide-2 .right-bottom-name{
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+}
+
+.slide-3{
+  background-image: linear-gradient(#F1DADA, #D70000);
+}
+
+.slide-3 .left-top-name{
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.slide-3 .right-bottom-name{
+  position: absolute;
+  bottom: 1%;
+  right: 5%;
+}
+
+.slide-4{
+  background-image: linear-gradient(#D50012, #0A0001);
+}
+
+.slide-4 .left-top-name{
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.slide-4 .right-bottom-name{
+  position: absolute;
+  bottom: 1%;
+  right: 2%;
+}
+
+.slide-5{
+  background-image: linear-gradient(#FEFFFE, #8FACD5);
+}
+
+.slide-5 .left-top-name{
+  -webkit-text-stroke-color: #8FACD5;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.slide-5 .right-bottom-name{
+  position: absolute;
+  bottom: 1%;
+  right: 8%;
+}
+
+.selection-description-mini .selection-info{
+  width: 500px;
+  font-size: 20px;
+}
+
+.selection-description-mini{
+  height: 100%;
+  width: 100%;
+  bottom: -100%;
+  position: absolute;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-text-stroke-color: none;
+  -webkit-text-stroke-width: 0;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 2s;
+}
+
+.slide-2:hover .selection-description-mini,
+ .slide-3:hover .selection-description-mini,
+  .slide-4:hover .selection-description-mini,
+   .slide-5:hover .selection-description-mini{
+  bottom: 0;
+}
+/* SUPPLIERS */
+.suppliers{
+  height: 320px;
+  background-color: #FF5E03;
+  color: #FFD600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.suppliers .top{
+  font-family: "Josefin Slab", serif;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.suppliers .bottom{
+  font-family: "Notable", sans-serif;
+  font-size: 70px;
+}
+
+/* INGREDIENTS GALLERY */
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ingredient-1 img,
+.ingredient-2 img,
+.ingredient-3 img,
+.ingredient-4 img,
+.ingredient-5 img,
+.ingredient-6 img,
+.ingredient-7 img,
+.ingredient-8 img,
+.ingredient-9 img{
+  width: 386px;
+  height: 386px;
+}
+
+.ingredient-slogan{
+  font-family: "Jomhuria", serif;
+  font-size: 80px;
+  margin-bottom: 2rem;
+}
+
+.ingredient-description .ingredient-info{
+  font-family: "Josefin Slab", serif;
+  width: 330px;
+  font-size: 18px;
+}
+
+.ingredient-description{
+  height: 386px;
+  width: 386px;
+  top: 386px;
+  bottom: 0;
+  position: absolute;
+  -webkit-text-fill-color: #ffffff;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 2s;
+}
+
+
+.ingredient-1,
+.ingredient-2,
+.ingredient-3,
+.ingredient-4,
+.ingredient-5,
+.ingredient-6,
+.ingredient-7,
+.ingredient-8,
+.ingredient-9 {
+  position: relative;
+  overflow: hidden; /* add this line */
+}
+
+.ingredient-1:hover .ingredient-description,
+.ingredient-2:hover .ingredient-description,
+.ingredient-3:hover .ingredient-description,
+.ingredient-4:hover .ingredient-description,
+.ingredient-5:hover .ingredient-description,
+.ingredient-6:hover .ingredient-description,
+.ingredient-7:hover .ingredient-description,
+.ingredient-8:hover .ingredient-description,
+.ingredient-9:hover .ingredient-description{
+  top: 0;
+}
