@@ -19,6 +19,45 @@ font-family: "Josefin Slab", serif;
   max-width: 1160px;
 }
 
+/* HEADER */
+.header{
+  background-color: #034EA2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.header-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+}
+
+.navigation-link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-link{
+  font-family: "Jomhuria", serif;
+  font-size: 30px;
+  color: #034EA2;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 3px solid #BB8E39;
+}
+
+
+
 .slide-1, .slide-2, .slide-3, .slide-4, .slide-5{
   font-family: "Jomhuria", serif;
   font-size: 85px;
@@ -40,7 +79,7 @@ font-family: "Josefin Slab", serif;
 /* First Slide */
 
 .most-colorful{
-  height: 567px;
+  height: 650px;
   background: linear-gradient(180deg, rgba(27, 29, 83, 1) 0%, rgba(197, 3, 24, 1) 100%);
   color: white;
   display: flex;
