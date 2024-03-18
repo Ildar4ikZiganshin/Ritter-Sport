@@ -424,11 +424,21 @@ font-family: "Josefin Slab", serif;
  .contact-box input, .contact-box select {
   font-family: "Josefin Slab", serif;
   font-size: 20px;
-  color:#d2cc72ad;
+  color:#FFF500;
   background-color: transparent;
   border: none;
   outline: none;
  }
+
+ .contact-box select:active{
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+  color:#d2cc72ab;
+  background-color: transparent;
+  border: none;
+  outline: none;
+ }
+
  .contact-input {
   width: 100%;
   font-size: 16px;
