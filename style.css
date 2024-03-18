@@ -428,6 +428,13 @@ font-family: "Josefin Slab", serif;
   align-items: center;
  } */
 
+input:-webkit-autofill{
+  -webkit-text-fill-color: #FFF500;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
 .form-container{
   text-align: left;
 }
