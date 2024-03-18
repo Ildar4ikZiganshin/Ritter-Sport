@@ -154,64 +154,60 @@
     <section class="book-tour container">
       <h2 class="book-title">Get a ticket</h2>
       <p class="book-slogan">Check the quality by your own</p>
-    <div class="form-container">
-      <form action="" class="contact__form" id="contact-form">
-  
-        <div class="contact-group">
-          <div class="contact-box">
-            <label for="fname" class="contact-label">First Name:</label>
-            <input type="text" name="user-fname" class="contact-input" id="fname" required placeholder="First Name">
+      <div class="form-container">
+        <form action="" class="contact__form" id="contact-form">
+
+          <div class="contact-group">
+            <div class="contact-box">
+              <label for="fname" class="contact-label">First Name:</label>
+              <input type="text" name="user-fname" class="contact-input" id="fname" required placeholder="first name">
+            </div>
+
+            <div class="contact-box">
+              <label for="lname" class="contact-label">Last Name:</label>
+              <input type="text" name="user-lname" class="contact-input" id="lname" required placeholder="last name">
+            </div>
           </div>
-  
-          <div class="contact-box">
-            <label for="lname" class="contact-label">Last Name:</label>
-            <input type="text" name="user-lname" class="contact-input" id="lname" required placeholder="Last Name">
+
+          <div class="contact-group">
+            <div class="contact-box">
+              <label for="user_email" class="contact-label">Email:</label>
+              <input type="text" name="user_email" class="contact-input" id="email" required placeholder="rittersport@gmail.com">
+            </div>
+
+            <div class="contact-box">
+              <label for="phone" class="contact-label">Phone:</label>
+              <input type="text" name="phone" class="contact-input" id="phone" required placeholder="+1234567890">
+            </div>
           </div>
-        </div>
-  
-        <div class="contact-group">
-          <div class="contact-box">
-            <label for="user_email" class="contact-label">Email:</label>
-            <input type="text" name="user_email" class="contact-input" id="email" required placeholder="ritter@gmail.com">
+
+          <div class="contact-group">
+            <div class="contact-box">
+              <label for="time" class="contact-label">Time:</label>
+              <select name="time" id="time" class="time" required>
+                <option value="09:00">9 AM</option>
+                <option value="12:00">12 PM</option>
+                <option value="15:00">3 PM</option>
+              </select>
+            </div>
+
+            <div class="contact-box">
+              <label for="date" class="contact-label">Date:</label>
+              <input type="text" name="user-date" class="contact-input" id="date" placeholder="dd/mm/yyyy" required>
+            </div>
           </div>
-  
           <div class="contact-box">
-            <label for="phone" class="contact-label">Phone:</label>
-            <input type="text" name="phone" class="contact-input" id="phone" required placeholder="4374332421">
-          </div>
-        </div>
-  
-        <div class="contact-group">
-          <div class="contact-box">
-            <label for="time" class="contact-label">Time:</label>
-            <select name="time" id="time" class="time" required>
-              <option value="09:00">9 AM</option>
-              <option value="12:00">12 PM</option>
-              <option value="15:00">3 PM</option>
-            </select>
-          </div>
-  
-          <div class="contact-box">
-            <label for="date" class="contact-label">Date:</label>
-            <input type="date" name="user-date" class="contact-input" id="date" required placeholder="Date Of Order">
-          </div>
-  
-          <div class="location-option">
             <label for="location" class="contact-label">Location:</label>
-            <select name="location" id="location" class="location" required>
-              <option value="economy">Economy</option>
-              <option value="comfort">Comfort</option>
-              <option value="royal">Royal</option>
+            <select name="location" id="location" class="contact-input" required>
+              <option value="1">Berlin, Germany</option>
+              <option value="2">Toronto, Canada</option>
+              <option value="3">Moscow, Russia</option>
             </select>
           </div>
-        </div>
-        <p class="contact-message" id="contact-message"></p>
-  
-        <button type="submit" class="contact-button button">
-          <i class="ri-send-plane-line"></i> Get a ticket
-        </button>
-      </form>
-    </div>
+
+          <button type="submit" class="contact-button button">Get a ticket</button>
+        </form>
+      </div>
     </section>
   </main>
 

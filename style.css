@@ -219,7 +219,7 @@ font-family: "Josefin Slab", serif;
 
 .secret-slogan {
   height: 570px;
-  background-image: url(/img/bg-secret.png);
+  background-image: url(img/bg-secret.png);
   color: #FFD600;
   display: flex;
   justify-content: center;
@@ -362,6 +362,7 @@ font-family: "Josefin Slab", serif;
 .book-title {
   color: #FFF500;
   font-size: 50px;
+  margin-bottom: 2rem;
 }
 
 .book-slogan {
@@ -371,8 +372,9 @@ font-family: "Josefin Slab", serif;
 }
 
 .book-tour {
+  font-family: "Josefin Slab", serif;
   color: #FFF500;
-  background: linear-gradient(180deg, rgba(27, 29, 83, 1) 0%, rgba(197, 3, 24, 1) 100%);
+  background: linear-gradient(180deg, rgba(27, 29, 83, 1) 0%, rgba(103, 9, 18)100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -380,12 +382,24 @@ font-family: "Josefin Slab", serif;
   height: 1000px;
 }
 
-.form-container {
+/* .form-container {
   display: grid;
   grid-template-rows: repeat(4, auto);
   justify-content: center;
   align-items: center;
- }
+ } */
+
+.form-container{
+  text-align: left;
+}
+
+.contact__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
 
  .contact-group {
   display: grid;
@@ -393,52 +407,47 @@ font-family: "Josefin Slab", serif;
   grid-gap: 30px;
   place-items: center;
   width: 100%;
-  grid-template-columns: 1fr 1fr;
  }
 
  .contact-box {
   display: grid;
-  border: 4px solid #86642C;
-  border-radius: 10px;
+  border-bottom: 3px solid #FFF500;
   width: 300px;
-  padding: 5%;
-  margin: 5%;
+  padding: 10px;
+  margin: 20px;
  }
 
  .contact-label {
   margin-bottom: 5%;
   font-size: 25px;
  }
- .contact-box input, textarea {
+ .contact-box input, .contact-box select {
+  font-family: "Josefin Slab", serif;
   font-size: 20px;
-  color:#000000;
+  color:#d2cc72ad;
+  background-color: transparent;
+  border: none;
+  outline: none;
  }
  .contact-input {
-  padding: 8px;
-  border: 3px solid #000000;
-  border-radius: 10px;
   width: 100%;
   font-size: 16px;
-  background-color: #C0A276;
+  background-color: none;
 }
 
- .location-option {
-    grid-row: 4;
- }
+.contact-input::placeholder{
+  font-family: "Josefin Slab", serif;
+  color: #d2cc72ab;
+}
 
- .location {
-  padding: 8px;
-  border: 3px solid #000000;
-  border-radius: 10px;
-  width: 150px;
-  font-size: 16px;
-  background-color: #C0A276;
-  font-family: 'Yeseva One', serif;
- }
-
- .contact-button {
-  width: 40%;
-  margin: 2% auto;
-  font-family: 'Yeseva One', serif;
-  margin-bottom: 10%
- }
+.contact-button {
+  border: none;
+  width: 400px;
+  font-family: "Josefin Slab", serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ff5e00;
+  background-color: #FFF500;
+  padding: 10px;
+  margin-top: 40px;
+}
