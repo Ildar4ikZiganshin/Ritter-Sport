@@ -521,6 +521,8 @@ input:-webkit-autofill{
   font-family: "Josefin Slab", serif;
   font-weight: bold;
   font-size: 20px;
+  width: 100%;
+  padding-left: 40px;
 }
 
 .social-list {
