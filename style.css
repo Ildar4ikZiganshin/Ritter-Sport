@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Notable&display=swap');
 
 /*
-FONT FAMILY
+FONTS
 font-family: "Jomhuria", serif;
 font-family: "Notable", sans-serif;
 font-family: "Josefin Slab", serif;
@@ -381,7 +381,7 @@ font-family: "Josefin Slab", serif;
 .ingredient-8,
 .ingredient-9 {
   position: relative;
-  overflow: hidden; /* add this line */
+  overflow: hidden;
 }
 
 .ingredient-1:hover .ingredient-description,
@@ -420,13 +420,6 @@ font-family: "Josefin Slab", serif;
   align-items: center;
   height: 1000px;
 }
-
-/* .form-container {
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  justify-content: center;
-  align-items: center;
- } */
 
 input:-webkit-autofill{
   -webkit-text-fill-color: #FFF500;
@@ -498,14 +491,14 @@ input:-webkit-autofill{
 
 .contact-button {
   border: none;
-  width: 400px;
+  width: 10em;
   font-family: "Josefin Slab", serif;
   font-size: 1.5rem;
   font-weight: 600;
   color: #ff5e00;
   background-color: #FFF500;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 0.5rem;
+  margin-top: 3rem;
 }
 
 /* FOOTER */
@@ -515,13 +508,11 @@ input:-webkit-autofill{
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: 200px;
   color: #ffffff;
   font-family: "Josefin Slab", serif;
   font-weight: bold;
   font-size: 1.3rem;
-  padding: 0;
 }
 
 .social-list {
@@ -530,6 +521,7 @@ input:-webkit-autofill{
   list-style: none;
   justify-content: center;
   margin-right: 5rem;
+  width: 10em;
 }
 
 .social-list img {
@@ -545,7 +537,7 @@ input:-webkit-autofill{
 }
 
 .copyright p {
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 .copyright img {
@@ -556,4 +548,5 @@ input:-webkit-autofill{
 
 .email {
   margin-left: 5rem;
+  width: 10em;
 }
