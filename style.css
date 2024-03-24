@@ -22,8 +22,8 @@ font-family: "Josefin Slab", serif;
 /* HEADER */
 .header{
   background-color: #034EA2;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   width: 100%;
 }
 
@@ -38,7 +38,7 @@ font-family: "Josefin Slab", serif;
   display: flex;
   gap: 3rem;
   font-family: "Josefin Slab", serif;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .navigation-link{
@@ -60,7 +60,7 @@ font-family: "Josefin Slab", serif;
 
 .slide-1, .slide-2, .slide-3, .slide-4, .slide-5{
   font-family: "Jomhuria", serif;
-  font-size: 85px;
+  font-size: 4rem;
   height: 540px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: #fff;
@@ -73,7 +73,7 @@ font-family: "Josefin Slab", serif;
 
 .slide-2, .slide-3, .slide-4, .slide-5{
   font-family: "Jomhuria", serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   height: 270px;
 }
 /* First Slide */
@@ -90,14 +90,14 @@ font-family: "Josefin Slab", serif;
 }
 .most-colorful .colorful-top, .colorful-bottom{
   font-family: "Josefin Slab", serif;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 1rem;
 }
 
 .most-colorful .colorful-middle{
   font-family: "Notable", sans-serif;
-  font-size: 120px;
+  font-size: 6rem;
 }
 
 /* BIG MAIN SLIDE */
@@ -144,7 +144,7 @@ font-family: "Josefin Slab", serif;
 .selection-info{
   font-family: "Josefin Slab", serif;
   width: 1060px;
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .slide-1:hover .selection-description{
@@ -226,7 +226,7 @@ font-family: "Josefin Slab", serif;
 
 .selection-description-mini .selection-info{
   width: 500px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .selection-description-mini{
@@ -269,14 +269,14 @@ font-family: "Josefin Slab", serif;
 
 .secret-slogan .secret-top{
   font-family: "Josefin Slab", serif;
-  font-size: 60px;
+  font-size: 2.5rem;
   font-weight: bold;
   text-shadow: 5px 5px 5px #000;
 }
 
 .secret-slogan .secret-bottom{
   font-family: "Notable", sans-serif;
-  font-size: 120px;
+  font-size: 6rem;
   text-shadow: 5px 5px 5px #000;
 }
 
@@ -295,7 +295,7 @@ font-family: "Josefin Slab", serif;
 
 .description-text {
   font-family: "Josefin Slab", serif;
-  font-size: 30px;
+  font-size: 1.5rem;
   width: 883px;
 }
 
@@ -312,13 +312,13 @@ font-family: "Josefin Slab", serif;
 }
 .suppliers .top{
   font-family: "Josefin Slab", serif;
-  font-size: 40px;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 .suppliers .bottom{
   font-family: "Notable", sans-serif;
-  font-size: 70px;
+  font-size: 4rem;
 }
 
 /* INGREDIENTS GALLERY */
@@ -343,14 +343,14 @@ font-family: "Josefin Slab", serif;
 
 .ingredient-slogan{
   font-family: "Jomhuria", serif;
-  font-size: 80px;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 
 .ingredient-description .ingredient-info{
   font-family: "Josefin Slab", serif;
   width: 330px;
-  font-size: 18px;
+  font-size: 1.3rem;
 }
 
 .ingredient-description{
@@ -400,13 +400,13 @@ font-family: "Josefin Slab", serif;
 
 .book-title {
   color: #FFF500;
-  font-size: 50px;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
 .book-slogan {
   color: #FFF500;
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 40px;
 }
 
@@ -478,7 +478,7 @@ input:-webkit-autofill{
 
  .contact-box select:active{
   font-family: "Josefin Slab", serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   color:#d2cc72ab;
   background-color: transparent;
   border: none;
@@ -487,7 +487,7 @@ input:-webkit-autofill{
 
  .contact-input {
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: none;
 }
 
@@ -500,7 +500,7 @@ input:-webkit-autofill{
   border: none;
   width: 400px;
   font-family: "Josefin Slab", serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #ff5e00;
   background-color: #FFF500;
@@ -520,9 +520,8 @@ input:-webkit-autofill{
   color: #ffffff;
   font-family: "Josefin Slab", serif;
   font-weight: bold;
-  font-size: 20px;
-  width: 100%;
-  padding-left: 40px;
+  font-size: 1.3rem;
+  padding: 0;
 }
 
 .social-list {
@@ -530,11 +529,11 @@ input:-webkit-autofill{
   flex-direction: row;
   list-style: none;
   justify-content: center;
-  margin-right: 70px;
+  margin-right: 5rem;
 }
 
 .social-list img {
-  margin-left: 10px;
+  margin-left: 0.5rem;
 }
 
 
@@ -552,9 +551,9 @@ input:-webkit-autofill{
 .copyright img {
   height: 141px;
   width: 141px;
-  margin-top: -140px;
+  margin-top: -50%;
 }
 
 .email {
-  margin-left: 70px;
+  margin-left: 5rem;
 }
